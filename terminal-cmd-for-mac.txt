@@ -1,0 +1,36 @@
+Các lệnh cơ bản khi làm việc với cửa sổ terminal của mac 
+1. clear : dọn dẹp màn hình cửa sổ terminal
+2. pwd : print working directory là in ra đường dẫn thư mục đang làm việc hiện tại
+3. mkdir : tạo ra 1 thư mục trống 
+    Example : mkdir dir1 (tạo ra 1 thư mục có tên là dir)
+    Nếu muốn tạo ra thư mục cha có thư mục con thì mkdir -p dir1/dir2/.... (tạo ra thư mục dir1 có con là dir2)
+4. touch : tạo ra tập tin
+    Example : touch file1.txt (tạo ra 1 tập tin có tên là file1.txt)
+5. echo : tạo ra tập tin và có thể chèn nội dung vào trong tập tin đó 
+    Example : echo "hello" > hello.txt (tạo ra 1 tập tin là hello.txt và chèn nội dụng hello vào trong tập tin đó)
+6. ls : list là xem danh sách trong thư mục và tập tin 
+    Example : ls dir1 (xem dánh sách thư mục con và tập tin bên trong dir1)
+    Nếu bạn muốn xem cả danh sách thư mục con và tập tin con ẩn thì có thêm lệnh ls -a dir1 (xem các thư mục con và tập tin con ẩn bên trong dir1)
+7. cd : truy cập vào các thư mục 
+    Example : cd dir1 (truy cập vào thư mục dir1)
+    Example : cd .. (truy cập vào thư mục cha của nó)
+    Example : cd ~ (trở về thư mục lớn nhất , trong trường hợp các thư mục bị xoá bất ngờ)
+8. cp : sao chép 1 tập tin hay thư mục 
+    Example : cp file1.txt file2.txt (sao chép tập tin file1.txt sang file2.txt)   
+    Example : cp -r dir1 dir2 (sao chép thư mục di1 sang dir2)
+9. mv : đổi tên hoặc di chuyển tập tin hoặc thư mục đến thư mục khác
+    Example : mv file1.txt file1.html (đổi tên tập tin file1.txt thành file1.html)
+    Example : mv file1.txt dir1 (di chuyển tập tin file1.txt vào trong thư mục dir1)
+    Example : mv dir1 dir2 (di chuyển thư mục dir1 vào trong thư mục dir2)
+10. rm : xoá tập tin hoặc thư mục
+     Example : rm file1.txt (xoá tập tin file1.txt)
+     Example : rm -rf dir1 (xoá thư mục và cả nhưng thư mục con và tập tin con của dir1)
+11. cat : xem nội dung tập tin 
+     Example : cat file1.txt (xem nội dung của tập tin file1)
+12. head : xem những dòng đầu của tập tin 
+     Example : head -n 5 file1.txt (xem 5 dòng đầu tiên của tập tin file1.txt)   
+13. tail : xem những dòng cuối của tập tin 
+     Example : tail -n 5 file1.txt (xem 5 dòng cuối cùng của tập tin file1.txt)      
+14. diff : so sánh sự khác biệt nội dung của 2 tập tin
+     Example : diff file1.txt file2.txt (so sánh sự khác biệt của file1.txt và file2.txt)    
+Lưu ý muốn xem các tập tin ẩn trên mac ấn shift + command + dấu chấm      
